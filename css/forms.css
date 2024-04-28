@@ -194,7 +194,7 @@ input:focus::placeholder {
   margin-right: 8px;
   width: 16px;
   height: 16px;
-  border: 1px solid var(--color-dark);
+  border: 1px solid rgba(46, 47, 66, 0.40);
   border-radius: 2px;
   
 }
@@ -202,8 +202,7 @@ input:focus::placeholder {
   fill: transparent;
   transform: scale(0.25);
   transition: 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-  border-color: rgba(46, 47, 66, 0.40);
-  }
+    }
 
 input[type='checkbox']:checked
   + .agreement-label-checkbox
@@ -216,7 +215,7 @@ input[type='checkbox']:checked
   > .agreement-checkbox
   > .order-modal-icon-checkbox {
   fill: var(--color-pressed-states);
-  color: var(--color-light);
+  
   transform: scale(1);
   
 }
