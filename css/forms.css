@@ -134,6 +134,7 @@ input:focus::placeholder {
   padding: 8px 38px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  outline: transparent;
 }
 
 .order-modal-icon {
@@ -171,6 +172,7 @@ input:focus::placeholder {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
+  outline: transparent;
 }
 .input-textarea:hover,
 .input-textarea:focus {
