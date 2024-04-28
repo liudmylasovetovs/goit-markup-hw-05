@@ -215,7 +215,8 @@ input[type='checkbox']:checked
   + .agreement-label-checkbox
   > .agreement-checkbox
   > .order-modal-icon-checkbox {
-  /* fill: var(--color-modal-overlay); */
+  fill: var(--color-pressed-states);
+  color: var(--color-light);
   transform: scale(1);
   
 }
